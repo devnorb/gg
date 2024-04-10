@@ -1,5 +1,6 @@
 -- skid this all you want idc anymore
 -- THIS HAS ONLY BEEN TESTED WITH MACSPLOIT!!!
+-- ig you can modify it for hydrogen
 repeat task.wait() until game:IsLoaded();
 local macsploitVersion = "0.9c"
 local oldsti = setthreadidentity;
