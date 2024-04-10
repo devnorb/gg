@@ -1,4 +1,5 @@
 -- skid this all you want idc anymore
+-- THIS HAS ONLY BEEN TESTED WITH MACSPLOIT!!!
 repeat task.wait() until game:IsLoaded();
 local macsploitVersion = "0.9c"
 local oldsti = setthreadidentity;
@@ -12,7 +13,7 @@ local cachedParts = {};
 local allDrawingObjects = {};
 local allDrawingObjectsCached = {};
 --[[ sha384 hashing for getscripthash - credits to Egor-Skriptunoff ]]--
--- yes skidded this part
+-- yes skidded this part and its very messy 
 local unpack, byte, char, sub, floor, ceil, type = table.unpack or unpack, string.byte, string.char, string.sub,
     math.floor, math.ceil, type;
 local sha512_feed_128
